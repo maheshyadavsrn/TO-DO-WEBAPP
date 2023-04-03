@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="wrapper">
+        <header>
+            <h2>To-do List App</h2>
+        </header>
+
+        <!-- menu -->
+        <figure>
+            <img src="http://preview.ibb.co/bEHRWp/image_image_1468034.png" width="100px">
+        </figure>
+        <main>
+            <form>
+                <input type="text" placeholder="Write some notes" name="my-note">
+                <!-- <button>+</button> -->
+                <input type="submit" value="+" class="submit" name="">
+            </form>
+            <div id="error"></div>
+            <!-- list Items -->
+            <ul>
+                <li>
+                    <span class="note">Email: maheshyadavsrn2022@gmail.com  Password: xyz0123</span>
+                    <span title="Delete note" class="delete">x</span>
+                    <p class="date">On Monday 27 May, 2023 by 1:26 </p>
+                </li>
+                <li>
+                    <span class="note">Betech Complete </span>
+                    <span title="Delete note" class="delete">x</span>
+                    <p class="date">On Saturday 23 May, 2024 by 18:17</p>
+                </li>
+            </ul>
+        </main>
+        <hr class="line">
+        <br>
+        <!-- footer -->
+        <footer>
+            <div>Designed by : <i>-Mahesh Yadav</i></div>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

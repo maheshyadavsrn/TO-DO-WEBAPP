@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+#wrapper {
+    width: 350px;
+    margin: 10px auto;
+    height: 100%;
+    border: 3px solid #3399ff;
+    border-radius: 5px;
+}
+header {
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #3399ff;
+}
+main {
+    margin: 10px;
+}
+form input[type="text"] {
+    width: 80%;
+    padding-left: 10px;
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(128,128,128);
+    
+}
+
+.submit {
+    width: 30px;
+    color: #3399ff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+}
+#error {
+    color: red;
+    font-weight:bold ;
+    height: 10px;
+}
+ul {
+    text-align: left;
+}
+ul li {
+    margin: 10px;
+    padding: 8px;
+    position: relative;
+    list-style: none;
+    color: rgba(0,0,0,0.7);
+    border-radius: 6px;
+    font-size: 1.1em;
+    background: rgba(128,128,128,0.4);
+    border-left: 3px solid gray;
+
+}
+ul li:hover {
+    border-left: 3px solid #3399ff;
+}
+ul li .delete {
+    right: 2%;
+    color: #ff4d4d;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+}
+ul li .delete:hover {
+    color: red;
+    text-shadow: 2px 2px 5px red;
+}
+.date {
+    color: gray;
+    font-size: 13px;
+}
+.line {
+    border: 0;
+    width: 80%;
+    height: 4px;
+    margin: 0 auto;
+    background: #3399ff;
+}
+footer {
+    color: #fff;
+    padding: 8px;
+    background: #3399ff;
+    border-top: 1px solid black;
+}
